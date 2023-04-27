@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center center/ cover;
+
+}
+
+.container{
+    height: 450px;
+    width: 750px;
+}
+.header{
+    border: 2px solid white;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: aliceblue;
+    background-color: #262626;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.main-content{
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 50px 40px;
+    box-shadow: 5px 5px 5px 0;
+    border-radius: 5px;
+
+}
+.main-content .text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button button{
+
+    background-color: #262626;
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: sticky;
+
+}
+.button button:active{
+    background-color: lightblue;
+}
